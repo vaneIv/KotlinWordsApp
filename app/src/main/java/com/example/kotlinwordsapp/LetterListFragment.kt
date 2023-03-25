@@ -57,6 +57,9 @@ class LetterListFragment : Fragment() {
             // Sets the LayoutManager of the recyclerView
             // On the first run of the app, it will be LinearLayoutManager
             chooseLayout()
+
+            // Redraw the manu
+            activity?.invalidateOptionsMenu()
         })
     }
 
